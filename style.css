@@ -88,9 +88,14 @@ body {
 
 .wallet {
     margin-bottom: 18px;
+
     background-color: #e0d0c0;
+
+    border: 2px solid #604840;
     border-radius: 6px;
+
     box-shadow: 0 6px 18px rgba(0, 0, 0, 0.18);
+
     overflow: hidden;
 }
 
@@ -100,9 +105,39 @@ body {
     cursor: pointer;
     list-style: none;
 
+    background-color: #e0d0c0;
+
     font-size: 1.2rem;
     font-weight: 900;
     letter-spacing: 0.05em;
+
+    transition: background-color 0.15s ease;
+}
+
+.wallet summary::-webkit-details-marker {
+    display: none;
+}
+
+.wallet summary::after {
+    content: "▸";
+
+    float: right;
+
+    color: #d87850;
+    font-size: 1.3rem;
+    font-weight: 900;
+}
+
+.wallet[open] summary {
+    border-bottom: 2px solid #604840;
+}
+
+.wallet[open] summary::after {
+    content: "▾";
+}
+
+.wallet summary:hover {
+    background-color: #f0e0d0;
 }
 
 .wallet summary::-webkit-details-marker {
