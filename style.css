@@ -266,11 +266,14 @@ body {
 }
 
 .thank-you h2 {
-    margin: 0 0 10px;
+    margin: 0 auto 10px;
+
+    max-width: 800px;
 
     font-size: 1.8rem;
     font-weight: 900;
     letter-spacing: 0.03em;
+    text-align: center;
 }
 
 .thank-you p {
@@ -278,13 +281,14 @@ body {
 
     font-size: 1.1rem;
     font-style: italic;
+    text-align: center;
 }
 
 .thank-you-image {
     display: block;
 
     width: 100%;
-    max-width: 900px;
+    max-width: 650px;
     height: auto;
 
     margin: 0 auto;
