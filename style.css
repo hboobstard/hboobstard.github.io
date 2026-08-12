@@ -294,3 +294,21 @@ body {
 
     box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
 }
+
+
+@media (max-width: 600px) {
+
+    .thank-you {
+        margin-top: 50px;
+        padding: 30px 10px 40px;
+    }
+
+    .thank-you h2 {
+        font-size: 1.4rem;
+    }
+
+    .thank-you p {
+        font-size: 1rem;
+    }
+
+}
