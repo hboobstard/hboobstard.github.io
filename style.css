@@ -253,3 +253,44 @@ body {
 
     pointer-events: none;
 }
+
+/* ==============================
+   Thank You Section
+   ============================== */
+
+.thank-you {
+    margin-top: 70px;
+    padding: 40px 20px 60px;
+
+    text-align: center;
+}
+
+.thank-you h2 {
+    margin: 0 0 10px;
+
+    font-size: 1.8rem;
+    font-weight: 900;
+    letter-spacing: 0.03em;
+}
+
+.thank-you p {
+    margin: 0 0 30px;
+
+    font-size: 1.1rem;
+    font-style: italic;
+}
+
+.thank-you-image {
+    display: block;
+
+    width: 100%;
+    max-width: 900px;
+    height: auto;
+
+    margin: 0 auto;
+
+    border: 2px solid #604840;
+    border-radius: 6px;
+
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+}
